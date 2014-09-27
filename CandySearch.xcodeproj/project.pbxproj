@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3E15432719D5167500DCD221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E15432619D5167500DCD221 /* AppDelegate.swift */; };
-		3E15432919D5167500DCD221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E15432819D5167500DCD221 /* ViewController.swift */; };
 		3E15432C19D5167500DCD221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E15432A19D5167500DCD221 /* Main.storyboard */; };
 		3E15432E19D5167500DCD221 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E15432D19D5167500DCD221 /* Images.xcassets */; };
 		3E15433119D5167500DCD221 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E15432F19D5167500DCD221 /* LaunchScreen.xib */; };
 		3E15433D19D5167500DCD221 /* CandySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E15433C19D5167500DCD221 /* CandySearchTests.swift */; };
+		3E15434719D517F700DCD221 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E15434619D517F700DCD221 /* Candy.swift */; };
+		3E15434919D5189200DCD221 /* CandyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E15434819D5189200DCD221 /* CandyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		3E15432119D5167500DCD221 /* CandySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E15432519D5167500DCD221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E15432619D5167500DCD221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E15432819D5167500DCD221 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3E15432B19D5167500DCD221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E15432D19D5167500DCD221 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3E15433019D5167500DCD221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3E15433619D5167500DCD221 /* CandySearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandySearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E15433B19D5167500DCD221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E15433C19D5167500DCD221 /* CandySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandySearchTests.swift; sourceTree = "<group>"; };
+		3E15434619D517F700DCD221 /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		3E15434819D5189200DCD221 /* CandyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				3E15432619D5167500DCD221 /* AppDelegate.swift */,
-				3E15432819D5167500DCD221 /* ViewController.swift */,
 				3E15432A19D5167500DCD221 /* Main.storyboard */,
 				3E15432D19D5167500DCD221 /* Images.xcassets */,
 				3E15432F19D5167500DCD221 /* LaunchScreen.xib */,
 				3E15432419D5167500DCD221 /* Supporting Files */,
+				3E15434619D517F700DCD221 /* Candy.swift */,
+				3E15434819D5189200DCD221 /* CandyTableViewController.swift */,
 			);
 			path = CandySearch;
 			sourceTree = "<group>";
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E15432919D5167500DCD221 /* ViewController.swift in Sources */,
 				3E15432719D5167500DCD221 /* AppDelegate.swift in Sources */,
+				3E15434719D517F700DCD221 /* Candy.swift in Sources */,
+				3E15434919D5189200DCD221 /* CandyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
